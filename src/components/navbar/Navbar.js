@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav
-      className='navbar navbar-expand-lg navbar-light fixed-top py-3'
+      className='navbar navbar-expand-lg  navbar-dark scrolling-navbar'
       id='mainNav'
     >
       <div className='container'>

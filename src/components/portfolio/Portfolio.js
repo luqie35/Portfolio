@@ -17,7 +17,7 @@ const Portfolio = () => {
             </div>
             <div className='col-lg-8 align-self-baseline'>
               <p className='text-white-75 font-weight-light mb-5'>
-                Yip thats me. A junior developer who loves IT...
+                Yip thats me. A junior developer who loves IT
               </p>
               <a
                 className='btn btn-primary btn-xl js-scroll-trigger'
@@ -33,33 +33,54 @@ const Portfolio = () => {
       <section className='page-section bg-primary' id='about'>
         <div className='container'>
           <div className='row justify-content-center'>
-            <div className='col-lg-8 '>
-              <h2 className='text-white mt-0'>
-                So let me tell you abit of myself...
-              </h2>
+            <div className='col-lg-8 text-center '>
+              <h3 className='text-white mt-0'>
+                <b>So let me tell you a bit of myself...</b>
+              </h3>
               <hr className='divider light my-4' />
               <p className='text-white-50 mb-4'>
-                <h5>
-                  I'm a dedicated and creative person. I like thinking out the
-                  box and being different. I can be a quiet person that enjoys
-                  analyzing my surroundings and vibe I'm in. I take challenges
-                  on in different ways to see different outcomes and always
-                  change things up. Respect is key for me and I'm family
-                  orientated as I am where I am today due to them and how i was
-                  raised.
-                </h5>
+                <h4>
+                  I am a quiet, dedicated and creative individual who enjoys
+                  working on challenges from different angles in order to
+                  evaluate different outcomes. I like thinking out the box and
+                  strive to be different. I'm a person of deep respect and
+                  family orientated as I believe I am where I am today because
+                  of them.
+                </h4>
 
-                <h4>Date of Birth: 2001 06 November</h4>
+                <h4>Date of Birth: 06 November 2001</h4>
                 <h4>Gender: male</h4>
                 <h4>Location (suburb): southern suburbs</h4>
-                <h4>Willing to relocate: No</h4>
+                <h4>Matriculated:2019 </h4>
+                <h4>Willing to relocate: yes</h4>
               </p>
-              <a
-                className='btn btn-light btn-xl js-scroll-trigger'
-                href='#skills'
-              >
-                Skills
-              </a>
+              <div className='row justify-content-center'>
+                <div className='col-lg-8 text-center'>
+                  <h2 className='text-white mt-0'>Work experience...</h2>
+                  <p className='text-white-50 mb-4'>
+                    <h4>Company: herbalife boot camp (volunteered)</h4>
+                    <h4>Period: 2018 February--March</h4>
+                    <h4>Role: Fitness trainer</h4>
+                    <h4>Duties: ● Teach technique ● Train and motivate</h4>
+                  </p>
+                  <p className='text-white-50 mb-4'>
+                    <h3 className='text-white mt-0'>
+                      <b>Hobbies...</b>
+                    </h3>
+                    <h4>-Hiking</h4>
+                    <h4>-Rugby</h4>
+                    <h4>-Wood work</h4>
+                    <h4>-Gaming</h4>
+                  </p>
+
+                  <a
+                    className='btn btn-light btn-xl js-scroll-trigger'
+                    href='#skills'
+                  >
+                    Skills
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -71,11 +92,18 @@ const Portfolio = () => {
               <h2 className='text-white mt-0'>Strenths and Weakness</h2>
               <hr className='divider light my-4' />
               <p className='text-white-50 mb-4'>
-                <h2>Ratings</h2>
-                <h3>FRONTEND-80%</h3>
-                <h3>BACKEND-60%</h3>
-                <h3>REACT-60%</h3>
-                <h3>TO BE CONTINUED</h3>
+                <h2>Ratings(out of 5)</h2>
+                <br></br>
+                z<h3>Html-I love this and would give myself a 5/5</h3>
+                <br></br>
+                <h3>Python-I struggle abit with it so 2/5</h3>
+                <br></br>
+                <h3>Javascript-Not too bad but not my best either so 3/5</h3>
+                <br></br>
+                <h3>
+                  MySql-This i can do but find it abit challenging so will go
+                  with 3/5
+                </h3>
               </p>
               <a
                 className='btn btn-light btn-xl js-scroll-trigger'
@@ -155,7 +183,7 @@ const Portfolio = () => {
               >
                 <img className='img-fluid' src={Project_1} alt='' />
                 <div className='portfolio-box-caption'>
-                  <div className='project-name'>github-finder</div>
+                  <div className='project-name'>GITHUB-FINDER</div>
                 </div>
               </a>
             </div>
@@ -166,7 +194,7 @@ const Portfolio = () => {
               >
                 <img className='img-fluid' src={Project_2} alt='' />
                 <div className='portfolio-box-caption'>
-                  <div className='project-name'>contact-keeper</div>
+                  <div className='project-name'>CONTACT-KEEPER</div>
                 </div>
               </a>
             </div>
@@ -177,7 +205,7 @@ const Portfolio = () => {
               >
                 <img className='img-fluid' src={Project_3} alt='' />
                 <div className='portfolio-box-caption'>
-                  <div className='project-name'>it-logger </div>
+                  <div className='project-name'>IT-LOGGER </div>
                 </div>
               </a>
             </div>
@@ -197,13 +225,20 @@ const Portfolio = () => {
           <div className='row'>
             <div className='col-lg-4 ml-auto text-center mb-5 mb-lg-0'>
               <i className='fas fa-phone fa-3x mb-3 text-muted'></i>
-              <div>061 417 4800</div>
+              <a className='d-block' href='tel:061 417 4800'>
+                061 417 4800
+              </a>
             </div>
             <div className='col-lg-4 mr-auto text-center'>
               <i className='fas fa-envelope fa-3x mb-3 text-muted'></i>
-
-              <a className='d-block' href='...'>
+              <a className='d-block' href='mailto: luqie35@gmail.com'>
                 luqie35@gmail.com
+              </a>
+            </div>
+            <div className='col-lg-4 mr-auto text-center'>
+              <i className='fab fa-github fa-4x mb text-muted'></i>
+              <a className='d-block' href='https://github.com/luqie35'>
+                My Github
               </a>
             </div>
           </div>
