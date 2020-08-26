@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Project_1 from "../images/proj_1.png";
 import Project_2 from "../images/proj_2.png";
 import Project_3 from "../images/proj_3.png";
+import Project_4 from "../images/proj_4.png";
 
 const Portfolio = () => {
   return (
@@ -94,7 +95,7 @@ const Portfolio = () => {
               <p className='text-white-50 mb-4'>
                 <h2>Ratings(out of 5)</h2>
                 <br></br>
-                z<h3>Html-I love this and would give myself a 5/5</h3>
+                <h3>Html-I love this and would give myself a 5/5</h3>
                 <br></br>
                 <h3>Python-I struggle abit with it so 2/5</h3>
                 <br></br>
@@ -206,6 +207,17 @@ const Portfolio = () => {
                 <img className='img-fluid' src={Project_3} alt='' />
                 <div className='portfolio-box-caption'>
                   <div className='project-name'>IT-LOGGER </div>
+                </div>
+              </a>
+            </div>
+            <div className='col-lg-4 col-sm-6'>
+              <a
+                className='portfolio-box'
+                href='https://github.com/luqie35/Final_Blog_last'
+              >
+                <img className='img-fluid' src={Project_4} alt='' />
+                <div className='portfolio-box-caption'>
+                  <div className='project-name'>BLOG WEBSITE </div>
                 </div>
               </a>
             </div>

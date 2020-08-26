@@ -501,8 +501,8 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  max-width: 50%;
+  height: 50px;
 }
 .img-fluid:hover {
   border: 8px solid rgb(0, 247, 255);
@@ -576,6 +576,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 50px;
 }
 @media (min-width: 576px) {
   .container {
@@ -10633,4 +10634,11 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.col-lg-4-col-sm-6 {
+  color: aqua;
+}
+
+.page-section-01 bg-secondary {
 }
